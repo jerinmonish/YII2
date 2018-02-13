@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.oness a {
+    outline: none !important;
+}
+
+.oness a, p, h1, h2, h3, h4, h5, h6, span {
+    font-family: 'Roboto Slab', serif;
+}
+
+.oness .noleft {
+    padding-left: 0px !important;
+}
+
+.oness .noright {
+    padding-right: 0px !important;
+}
+
+
+.oness .singleCourse, .singleCourseInfo,
+.singleTitle, .singleCourseImage, .singleCourseContent{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+
+
+.readMore {
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    background: #ff4081;
+    border-radius: 4px;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0;
+    letter-spacing: .2px;
+    transition: all 500ms ease-in-out;
+}
+
+    .readMore:hover, .readMore:focus {
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+        color: #FFF;
+        text-decoration: none;
+        letter-spacing: 1.1px;
+    }
+
+.singleCourse {
+    padding: 40px 10px;
+}
+
+.singleCourseInfo {
+    background: #FFF;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.singleTitle {
+    padding: 20px;
+}
+
+    .singleTitle h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #3F51B5;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+.singleCourseImage {
+    padding: 20px;
+}
+
+.singleCourseGreen {
+    color: #FFF;
+    background: #93d24f;
+}
+
+.singleCourseOrange {
+    color: #FFF;
+    background: #ebad35;
+}
+
+.singleCourseBLue {
+    color: #FFF;
+    background: #4e6fce;
+}
+
+.singleCourseLightblue {
+    color: #FFF;
+    background: #7fcde4;
+}
+
+.singleCoursePink {
+    color: #FFF;
+    background: #fc6681;
+}
+
+.singleCourseImage > img {
+    display: block;
+    margin: 10px auto;
+}
